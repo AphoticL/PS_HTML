@@ -11,8 +11,9 @@
 </style>
 <meta charset = 'utf-8'>
 <?
-    $conn = mysql_connect("localhost", "root", "11111111");
+    $conn = mysql_connect("localhost", "root", "12345678");
     if (!$conn) {
         echo "<h id=\"red\"> DATABASE ERROR </h>";
+        $login_attempt = true;
     }
 ?>

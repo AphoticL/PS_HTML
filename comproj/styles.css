@@ -1,0 +1,21 @@
+@charset "UTF-8";
+#ctr {
+    display: block;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    top: 5vh
+}
+ht {
+    font-family: 'Kanit', sans-serif;
+    font-size: 48px
+}
+ft {
+  font-family: 'Kanit', sans-serif;
+  font-size: 16px
+}
+#pdiv {
+    margin: left:calc(50vw - 200px);
+    font-family: 'Kanit', sans-serif;
+    font-size: 24px
+}
